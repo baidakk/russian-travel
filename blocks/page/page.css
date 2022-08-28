@@ -1,0 +1,11 @@
+.page {
+    max-width: 1280px;
+    font-family: "Inter", "Arial", "sans-serif";
+    align-self: center;
+    margin: auto;
+    border: 1px solid red;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
