@@ -32,11 +32,13 @@
 @media screen and (max-width: 768px) {
     .cover {
         min-height: 480px;
+        margin: 90px auto 0;
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 320px) {
     .cover  {
-        min-height: minmax (320px, 590px)
+        min-height: 200px;
+        margin: 66px auto 0;
 }
 }
