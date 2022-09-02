@@ -1,0 +1,12 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/10;
+}
+
+.cover__link:hover {
+    opacity: 1;
+}

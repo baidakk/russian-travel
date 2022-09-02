@@ -6,10 +6,10 @@
     padding-top: 28px;
     padding-left: 48px;
     padding-right: 48px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1050px) {
     .header {
         width: calc(100% - 48px);
         padding-left: 24px;
@@ -25,8 +25,9 @@
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 320px) {
     .header {
+        margin: auto;
         width: calc(100% - 32px);
         padding-top: 16px;
         padding-left: 16px;
