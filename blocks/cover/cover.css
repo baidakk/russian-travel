@@ -1,44 +1,6 @@
 .cover {
-  position: relative;
-  background-image: url(../../images/cover/__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 100%;
   max-width: 1184px;
-  min-height: 740px;
-  object-fit: cover;
-  margin: 92px auto 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 0;
-  text-decoration: none;
-}
-
-
-@media screen and (max-width: 1148px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    min-height: 480px;
-    margin: 90px auto 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
-    margin: 66px auto 0;
-  }
+  padding: 92px 0 0;
+  margin: 0 auto;
 }

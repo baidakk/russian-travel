@@ -1,13 +1,53 @@
 .cover__overlay {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(42, 44, 47, .8);
-  transition: all .3s;
+  max-width: 1184px;
+  height: 740px;
+  background-image: url("../../../images/cover/__background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
 }
 
-.cover__overlay:hover {
-  background-color: rgba(42, 44, 47, 0.3);
+.cover__overlay::before {
+  content: "";
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .cover__overlay {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    height: 480px;
+    margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    height: 200px;
+    margin: 66px auto 0;
+  }
 }
