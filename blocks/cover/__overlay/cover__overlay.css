@@ -6,7 +6,7 @@
   align-items: center;
   width: 100%;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   background-image: url("../../../images/cover/__background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,21 +32,20 @@
   transition: all 0.3s ease-in;
 }
 
-
 @media screen and (max-width: 1050px) {
   .cover__overlay {
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-    max-height: 200px;
+    min-height: 200px;
   }
 }
